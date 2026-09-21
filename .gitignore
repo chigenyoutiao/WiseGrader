@@ -1,0 +1,88 @@
+# === Python 后端 ===
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv
+venv/
+env/
+
+# Environment variables
+.env
+.venv
+
+# === Node.js 前端 ===
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+#下载缓存
+ backend/temp/
+ backend/uploads/
+ !backend/temp/.gitkeep
+ !backend/uploads/.gitkeep
+
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# === 通用 ===
+# Logs
+logs
+*.log
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+Thumbs.db
+
+# Database (如果有)
+*.db
+*.sqlite3
+Aiconfig.md
+**/xxt_cookies.json
+**/runner_state.json
+**/login_qr.png
+**/chromedriver.exe
+xuexitong/cstudy/chrome_profile/
+xuexitong/cstudy/downloads/
+frontend/.npm-cache/
+backend/temp/
+backend/uploads/

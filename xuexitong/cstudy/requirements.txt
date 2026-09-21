@@ -1,0 +1,11 @@
+# Xuexitong Automation Dependencies
+
+# Selenium for browser automation
+selenium==4.15.2
+
+# HTTP client for API communication
+requests==2.31.0
+urllib3>=1.26.0  # requests 和 selenium 的依赖
+
+# SSL certificate verification (selenium 可能需要)
+certifi>=2023.0.0
